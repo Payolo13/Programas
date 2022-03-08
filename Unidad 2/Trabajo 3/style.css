@@ -3,7 +3,7 @@ body{
 }
 
 img{
-  float: left;
+  float: right;
 }
 p{
   font-size: 20px;
@@ -24,7 +24,13 @@ p{
 }
 
 #caja2{
-  float: right;
+  float: left;
+  width: 200px;
+  height: 300px;
+}
+
+#caja3{
+  float: left;
   width: 200px;
   height: 300px;
 }
