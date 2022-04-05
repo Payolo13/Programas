@@ -1,26 +1,111 @@
+@font-face {
+  font-family: 'Padauk';
+  src: url('fonts/Padauk/Padauk-Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Mochy';
+  src: url('fonts/Mochiy_Pop_One/MochiyPopOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Inde_Flower';
+  src: url('fonts/Inde_Flower/IndieFlower-Regular.ttf');
+}
+
 *{
   margin: 0;
   padding: 0;
-  list-style: none;
+  box-sizing: border-box;
+  margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+  line-height: 1;
+}
+
+
+header{
+  top: 0;
+  width: 100%;
+  padding: 0px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  background-color: #faf3f3;
+}
+
+
+.navbar a{
+  color: #0f2733;
   text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 0px 25px;
+  border-radius: 20px;
+  font-family: Mochy;
 }
 
-.header{
-  width: 100px;
-  height: 80px;
-  display: block;
-  background-color: coral;
+
+.telefono{
+  font-weight: 600;
+  color: #0f2733;
+  font-family: Padauk;
+  font-size: 8px;
+  display: flex;
 }
 
-.inner_header{
-  width: 1000px;
-  height: 100%;
-  display: block;
-  margin: 0 auto;
+.telefono img{
+  margin-left: 30px;
 }
 
-.logo_container{
-  height: 100%;
-  display: table;
-  float: left;
+
+.container{
+  display: flex;
+}
+
+
+.izq{
+  margin: 0%;
+  padding: 0%;
+  justify-content: space-between;
+  background-color: #faf3f3;
+  width: 40%;
+  height: 800px; 
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+}
+
+
+.nombre{
+  margin: 5%;
+  padding: 0%;
+  font-family: Padauk;
+  color: #0f2733;
+  font-size: 75px;
+}
+
+
+.enlace {
+  color: rgb(242, 101, 64);
+  font-size: .9rem;
+  font-weight: bold; 
+}
+
+
+.experiencia{
+  margin: 5%;
+  padding: 0%;
+  font-size: 30px;
+}
+
+
+.der{
+  background-color: #faf3f3;
+  float: right;
+  width: 60%;
+  height: 800px;
+  
 }
